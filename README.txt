@@ -1,0 +1,1 @@
+This is my first Landing Page project, created as part of The Odin Project.

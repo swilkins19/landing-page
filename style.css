@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hero {
+    padding-left:10%;
+    padding-right:10%;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul.header-links {
+    display:flex;
+    flex-direction: row;
+    gap:16px;
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
