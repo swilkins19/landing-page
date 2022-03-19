@@ -146,3 +146,40 @@ ul.header-links {
     font-weight: bold;
     text-align: right;
 }
+
+
+
+.cta-section {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left:12%;
+    padding-right:12%;
+}
+
+.cta-info {
+    display: flex;
+    padding: 46px 10%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.cta-text1 {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cta-text2 {
+    color: #E5E7EB;
+}
+
+.cta-button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: bold;
+    border: #F9FAF8;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    padding: 0px 24px;
+}
