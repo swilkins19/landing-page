@@ -48,7 +48,7 @@ ul.header-links {
     padding-bottom: 100px;
 }
 
-.info, .image {
+.hero-info, .hero-image {
     display: flex;
     flex: 1;
     margin-top: 88px;
@@ -58,7 +58,7 @@ ul.header-links {
     */
 }
 
-.image {
+.hero-image {
     justify-content: center;
     align-items: center;
     background-color: #7e8997;
@@ -67,18 +67,19 @@ ul.header-links {
     min-width: 300px;
 }
 
-.info {
+.hero-info {
     flex-direction: column;
     gap:4px;
     padding-right: 10%;
 }
 
-.info h1 {
+.hero-info h1 {
     font-size: 36px;
     font-weight:bolder;
+    color: #F9FAF8;
 }
 
-.info button {
+.hero-info button {
     padding:6px 24px;
     align-self: flex-start;
     background-color: #3882F6;
