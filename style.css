@@ -1,6 +1,12 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    overflow: auto;
+    height: 100%;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -15,11 +21,11 @@ ul {
     padding-left:10%;
     padding-right:10%;
     background-color: #1F2937;
-    color: #E5E7EB;
+    color: #d4d7dd;
     font-size: 16px;
 }
 .hero a {
-    color: #E5E7EB;
+    color: #d4d7dd;
     font-size: 16px;
     text-decoration: none;
 }
@@ -127,7 +133,7 @@ ul.header-links {
 
 
 .quote-section {
-    background-color:#E5E7EB;
+    background-color:#d4d7dd;
     padding-top: 120px;
     padding-left: 22%;
     padding-right: 22%;
@@ -170,7 +176,7 @@ ul.header-links {
     font-size: 20px;
 }
 .cta-text2 {
-    color: #E5E7EB;
+    color: #d4d7dd;
 }
 
 .cta-button {
@@ -182,4 +188,11 @@ ul.header-links {
     border-width: 2px;
     border-radius: 8px;
     padding: 0px 24px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #d4d7dd;
+    text-align: center;
+    padding: 32px 0px;
 }
