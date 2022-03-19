@@ -126,10 +126,23 @@ ul.header-links {
 
 
 
+.quote-section {
+    background-color:#E5E7EB;
+    padding-top: 120px;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-bottom: 100px;
+    color: #1F2937;
+}
 
-
-/* .quote-text {
+.quote-text {
     font-size: 32px;
     font-style: italic;
-    font-weight: 200;
-} */
+    font-weight: 300;
+}
+
+.quote-author {
+    font-size:20px;
+    font-weight: bold;
+    text-align: right;
+}
