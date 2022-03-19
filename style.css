@@ -52,10 +52,6 @@ ul.header-links {
     display: flex;
     flex: 1;
     margin-top: 88px;
-    /*
-    border: 4px red;
-    border-style: solid;
-    */
 }
 
 .hero-image {
@@ -87,4 +83,43 @@ ul.header-links {
     font-weight: bold;
     border-radius: 8px;
     border: none;
+}
+
+
+
+.info-section h4 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.info-section-cards {
+    margin-top: 36px;
+    margin-bottom: 88px;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    gap: 4px;
+    width:140px;
+}
+
+.info-card .square {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-radius: 16px;
+    width: 140px;
+    height:140px;
+}
+
+.info-card .subtext {
+    color: #888888;
 }
