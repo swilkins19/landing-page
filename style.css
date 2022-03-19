@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -16,6 +17,11 @@ ul {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 16px;
+}
+.hero a {
+    color: #E5E7EB;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .header {
@@ -39,13 +45,13 @@ ul.header-links {
 .hero-content {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 64px;
+    padding-bottom: 100px;
 }
 
 .info, .image {
     display: flex;
     flex: 1;
-    margin-top: 64px;
+    margin-top: 88px;
     /*
     border: 4px red;
     border-style: solid;
@@ -58,7 +64,7 @@ ul.header-links {
     background-color: #7e8997;
     min-height:200px;
     max-height:400px;
-    min-width: 360px;
+    min-width: 300px;
 }
 
 .info {
